@@ -9,7 +9,7 @@ function meme(){
     .then((data)=>{
        const{author,title,url} = data
        console.log(url);
-      head.innerHTML = `${title} `
+      head.innerHTML = `${title}`
       image.src= url
       sapna.innerHTML = `Made By: ${author}`
     })
